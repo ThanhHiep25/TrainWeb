@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../IMG/BOOK1.gif.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/style.js"></script>
+    <title>Ngôi Nhà Của Sách-CH</title>
+</head>
+
+
+<body>
+
+    <header>
+        <Img src="../IMG/Anywhere St., Any City.png" class="img-1"></Img> 
+        <h1 class="h1"> BOOK STORE-CH.</h1>
+    </header>
+
+    <div class="user_div">
+       <input type="image" src="../IMG/avatar.svg" class="user_img"> <p class="name_user">Nguyễn Hiệp</p>
+    </div>
+
+    <nav class="menu">
+        <div>
+            <ul>
+                <li><a href="https://4359.my.canva.site">🏠 Trang chủ</a></li>
+                <li><a href="http://">📢 Thông tin</a></li>
+                <li><a href="https://4359.my.canva.site/id">📆 Sự kiện</a></li>
+            </ul>
+        </div>
+        <div class="">
+            <!-- Tạo một phần tử input để nhập vào danh mục cần tìm -->
+            <input id="search-input" type="text" class="search-dm" placeholder="Nhập danh mục sách">
+            <!-- Tạo một phần tử button để gửi yêu cầu tìm kiếm -->
+            <button id="search-button" class="btn-dm">Tìm</button>
+            <!-- Tạo một phần tử ul để hiển thị kết quả tìm kiếm -->
+            <ul id="search-result"></ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+
+            <!--book1 : Ngày một người không còn là tất cả.-->
+            <div class="book" id="book1">
+                <img src="../IMG/Ngay-mot-nguoi-khong-con-la-tat-ca.jpg" alt="Sapiens">
+                <p>Tên sách: Ngày một người không còn là tất cả.</p>
+                <p>Tác giả: Nam Thanh</p>
+                <p>Giá tiền: 200.000 đồng</p>
+                <button onclick="addToCart('book1')" class="btn-1">Thêm vào giỏ hàng</button>
+            </div>
+
+            <!--book2 : Ngôi nhà nghìn hành lang-->
+            <div class="book" id="book2">
+                <img src="../IMG/ngoi-nha-nghin-hanh-lang.jpg" alt="Atomic Habits">
+                <p>Tên sách: Ngôi nhà nghìn hành lang</p>
+                <p>Tác giả: Diana wynne jones</p>
+                <p>Giá tiền: 150.000 đồng</p>
+                <button onclick="addToCart('book2')" class="btn-2">Thêm vào giỏ hàng</button>
+            </div>
+
+            <!--book3 : Thanh xuân-->
+            <div class="book" id="book3">
+                <img src="../IMG/Thanhxuan.jpg" alt="The Alchemist">
+                <p>Tên sách: Thanh Xuân<br><br></p>
+                <p>Tác giả: Nguyễn Hiệp</p>
+                <p>Giá tiền: 100.000 đồng</p>
+                <button onclick="addToCart('book3')" class="btn-3">Thêm vào giỏ hàng</button>
+            </div>
+
+            <!--book4 : Đơn giản-->
+            <div class="book" id="book4">
+                <img src="../IMG/Dongian.jpg" alt="Đơn giản">
+                <p>Tên sách: Đơn giản<br><br></p>
+                <p>Tác giả: Cơ Hiểu An</p>
+                <p>Giá tiền: 80.000 đồng</p>
+                <button onclick="addToCart('book4')" class="btn-1">Thêm vào giỏ hàng</button>
+            </div>
+
+            <!--book5 : Mẹ thơm 1 cái-->
+            <div class="book" id="book5">
+                <img src="../IMG/me-thom-mot-cai.jpg" alt="Mẹ thơm một cái">
+                <p>Tên sách: Mẹ thơm một cái<br><br></p>
+                <p>Tác giả: Cửu Bảo Đào</p>
+                <p>Giá tiền: 50.000 đồng</p>
+                <button onclick="addToCart('book5')" class="btn-2">Thêm vào giỏ hàng</button>
+            </div>
+
+            <!--book6 : Tiếng thiên nga kêu-->
+            <div class="book" id="book6">
+                <img src="../IMG/Tiengthienngakeu.jpg" alt="Tiếng thiên nga kêu">
+                <p>Tên sách: Tiếng thiên nga kêu<br><br></p>
+                <p>Tác giả: E.B White</p>
+                <p>Giá tiền: 120.000 đồng</p>
+                <button onclick="addToCart('book6')" class="btn-3">Thêm vào giỏ hàng</button>
+            </div>
+            <div class="book" id="book7">
+                <img src="../IMG/Toibibobatcoc.jpg" alt="Sapiens">
+                <p>Tên sách: Tôi "bị bố" bắt cóc<br><br></p>
+                <p>Tác giả: Mitsuyo kakuta</p>
+                <p>Giá tiền: 200.000 đồng</p>
+                <button onclick="addToCart('book7')" class="btn-1">Thêm vào giỏ hàng</button>
+            </div>
+            <div class="book" id="book8">
+                <img src="../IMG/Tho7mau vs ng ban.jpg" alt="Atomic Habits">
+                <p>Tên sách: Thỏ 7 màu và những người nghĩ nó là bạn</p>
+                <p>Tác giả: Huỳnh Thái Ngọc</p>
+                <p>Giá tiền: 150.000 đồng</p>
+                <button onclick="addToCart('book8')" class="btn-2">Thêm vào giỏ hàng</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <div id="cart">
+            <img src="../IMG/sh.png" alt="" srcset="" height="30px" width="30px">
+            <ul id="cart-list">
+
+            </ul>
+            <button onclick="clearCart()" class="clear_1">Xóa giỏ hàng</button>
+        </div>
+
+        <div class="thanhtoan_ch">
+            <div id="customer-info">
+                <p class="p_user">Tên khách hàng: <input type="text" id="customer-name" class="in_user" /></p>
+                <p class="p_user">Địa chỉ: <input type="text" id="customer-address" class="in_user" /></p>
+                <p class="p_user">Số điện thoại: <input type="text" id="customer-phone" class="in_user" /></p>
+            </div>
+            <p id="total">Tổng tiền: 0 VND</p>
+            <button id="pay" onclick="pay()" class="pay-1">Thanh toán</button>
+
+        </div>
+
+    </footer>
+
+    <div class="hidden" id="notification">
+        <p id="notification-message"></p>
+    </div>
+
+    <!-- Thêm một phần tử <dialog> chứa nội dung của thông báo nổi -->
+    <dialog id="confirmDialog">
+        <!-- Thêm một nút để đóng thông báo nổi -->
+        <button id="closeDialog">X</button>
+        <!-- Thêm một câu hỏi cho người dùng -->
+        <p>Bạn có muốn thanh toán <span id="totalAmount"></span> đồng cho giỏ hàng của bạn không?</p>
+        <!-- Thêm hai nút để xác nhận hoặc hủy thanh toán -->
+        <button id="confirmPayment">Xác nhận</button>
+        <button id="cancelPayment">Hủy</button>
+    </dialog>
+
+
+</body>
+
+</html>
