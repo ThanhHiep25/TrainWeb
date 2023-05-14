@@ -1,0 +1,31 @@
+.container
+{
+    width: 1000px
+}
+ul
+{
+    cursor: pointer;
+    list-style: none;
+}
+.banner-header > img
+{
+    float: right;
+}
+#tb
+{
+    float: left;
+    width: 950px;
+}
+#st
+{
+    float: right;
+    margin: 10px;
+}
+.list-group-item
+{
+    color: red;
+}
+.modal-body > .row
+{
+    margin-top: 15px;
+}
