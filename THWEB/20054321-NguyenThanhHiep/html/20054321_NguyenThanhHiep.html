@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/ktth.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/ktth.js"></script>
+    <title>20054321</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="header">
+        </div>
+        <nav class="navbar navbar-expand border border-dark">
+            <ul class="navbar nav">
+                <li class="nav-item" style="cursor: pointer;">
+                    <a href="#" class="nav-link">Trang chủ</a>
+                </li>
+                <li class="nav-item" style="cursor: pointer;" id="menuDK">
+                    <a class="nav-link">Đặt lịch</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="border border-dark">
+            <table class="table table-bordered table-sniper">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Mã bệnh nhân</th>
+                        <th>Mật khẩu</th>
+                        <th>Ngày khám</th>
+                        <th>Dịch vụ</th>
+                        <th>Phụ thu dịch vụ</th>
+                        <th>Chuyên khoa</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-12 p-2">
+            <h4 class="text-center">20054321 - Nguyen Thanh Hiep</h4>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Đặt lịch khám online</h4>
+                    <button type="button" class="close bg-danger" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="txtMa" class="font-weight-bold">Mã Bệnh Nhân</label> <br>
+                            <input type="text" id="txtMa" class="form-control" placeholder="Mã bệnh nhân" required>
+                            <span id="errMa" class="text-danger">(*)</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="txtPass" class="font-weight-bold">Mật khẩu</label> <br>
+                            <input type="text" id="txtPass" class="form-control" placeholder="Mật khẩu" required>
+                            <span id="errPass" class="text-danger">(*)</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="font-weight-bold">Ngày khám</label> <br>
+                            <input type="date" id="txtDate" class="form-control" required>
+                            <span id="errDate" class="text-danger">(*)</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="font-weight-bold">Loại dịch vụ</label> <br>
+                            <input type="checkbox" id="kbtyc" checked class="dichVu"><label for="kbtyc" class="dichVu">Khám bệnh theo yêu cầu</label>
+                            <input type="checkbox" id="bsnt" checked class="dichVu"><label for="bsnt" class="dichVu">Bác sĩ ngoại trú</label>
+                            <input type="checkbox" id="bstyc" class="dichVu"><label for="bstyc" class="dichVu">Bác sĩ theo yêu cầu</label>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="font-weight-bold">Chuyên khoa</label> <br>
+                            <select id="selChuyenKhoa" class="form-control" style="cursor: pointer;">
+                                <option value="Ngoại tổng quát" selected>Ngoại tổng quát</option>
+                                <option value="Nhi">Nhi</option>
+                                <option value="Nội tổng quát">Nội tổng quát</option>
+                            </select>
+                        </div>
+
+                        <button type="button" id="btnDatLich" class="btn-primary ">Đặt lịch</button>
+                    </form>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="close" data-dismiss="modal" class="btn-primary">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

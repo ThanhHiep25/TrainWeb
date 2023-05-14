@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/dangky.css">
+    <script src="../js/dangky.js"></script>
+    <title>╰❥𝓼𝓷𝓪𝓬𝓴𝓼๖²⁴ʱ Sign up</title>
+</head>
+
+<body>
+    <section>
+        <div class="noi-dung">
+            <div class="form">
+                <h2>Trang Đăng Ký Hội Viên.</h2>
+                <form action="about.html">
+                    <div class="input-form">
+                        <span>Tên Người Dùng:</span>
+                        <input type="text" id="check-box" onkeyup="checkIn()" required>
+                        <span id="check1" style="color:rgb(179, 92, 92)"></span>
+                    </div>
+                    <div class="input-form" lder="Mật khẩu">
+                        <span>Mật Khẩu:</span>
+                        <input type="password" id="MatKhau1" onkeyup="checkMatKhau1()" required>
+                        <span id="check3" style="color:rgb(179, 92, 92)"></span>
+
+                    </div>
+                    <div class="input-form" lder="Mật khẩu">
+                        <span>Nhập Lại Mật Khẩu:</span>
+                        <input type="password" id="MatKhau2" onkeyup="checkMatKhau2()" onblur="cmpMatKhau()" required>
+                        <span id="check4" style="color:rgb(179, 92, 92)"></span>
+
+                    </div>
+                    <div class="input-form" lder="Email">
+                        <span>Email:</span>
+                        <input type="email" id="email" onkeyup="checkEmail()" required>
+                        <span id="check2" style="color:rgb(179, 92, 92)"></span>
+                    </div>
+                    <div class="input-form" lder="Ngày sinh">
+                        <span>Ngày Sinh: </span>
+                        <input type="date" name="" id="NgaySinh" onkeyup="checkNgaySinh()" required>
+                        <span id="check5" style="color:rgb(179, 92, 92)"></span>
+                    </div>
+                    <div class="input-form">
+                        <input type="submit" value="Đăng ký" class="DangKi" onclick="buttonDangKi()" required>
+                    </div>
+
+                    <div class="input-form">
+                        <p>Bạn Đã Có Tài Khoản? <a href="../html/about.html"> &#8594; Đăng nhập</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 2</div>
+                <img src="../img/C2.jpg" style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 2</div>
+                <img src="../img/C3.jpg" style="width:100%">
+
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <p style="font-size:18px; color:rgb(179, 92, 92); font-weight:bold;">Bấm vào đây</p>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

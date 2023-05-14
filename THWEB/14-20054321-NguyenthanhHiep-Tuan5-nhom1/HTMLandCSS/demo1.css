@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+#layout {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(113, 191, 228);
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    border: 5px solid rgb(248, 246, 246);
+    border-style: dotted;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-right: 10px;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: inline;
+}
+
+nav {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+section {
+    height: 100%;
+    float: left;
+    width: 50%;
+}
+
+footer {
+    float: left;
+    height: 50px;
+    width: 100%;
+    border: 5px solid rgb(245, 241, 241);
+    border-style: dotted;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.menu {
+    height: 50px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.menu ul li {
+    margin-top: 10px;
+    display: inline;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu ul li a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.menu ul li a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu ul li a:hover {
+    color: chartreuse;
+}
+
+form {
+    color: rgb(255, 255, 255);
+}
+
+.txt {
+    margin-top: -40px;
+    color: aliceblue;
+    text-shadow: 0px 0px 12px rgb(4, 6, 141);
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.txtselect {
+    margin-left: 130px;
+    border-radius: 5px;
+}
+
+.txt1 {
+    margin-left: 40px;
+}
+
+.txtname {
+    margin-left: 80px;
+    border-radius: 5px;
+}
+
+.txtmail {
+    margin-left: 55px;
+    border-radius: 5px;
+}
+
+.txtarea {
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.txtcity {
+    margin-left: 135px;
+    border-radius: 5px;
+}
+
+.txtcountry {
+    margin-left: 110px;
+    border-radius: 5px;
+}
+
+.txtbu {
+    margin-left: 200px;
+    border-radius: 5px;
+    border-style: dashed;
+}
+
+.txtbu1 {
+    border-radius: 5px;
+    border-style: dashed;
+}
+
+.txth2 {
+    font-weight: bold;
+    color: aliceblue;
+    margin-left: 60px;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.txth3 {
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.txtp1 {
+    color: aliceblue;
+    margin-left: 70px;
+    margin-top: -20px;
+}
+
+.txtp2 {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 80%;
+    height: 50%;
+}
+
+.txti {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.txtp {
+    padding-bottom: 5px;
+}
+
+.txt12 {
+    margin-left: 40px;
+    position: absolute;
+    border: 1px;
+}

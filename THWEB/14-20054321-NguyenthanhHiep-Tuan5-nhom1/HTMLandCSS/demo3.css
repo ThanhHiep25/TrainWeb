@@ -1,0 +1,171 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    width: 960px;
+    border: 2px solid rgb(0, 0, 0);
+    color: gray;
+}
+
+#header {
+    height: 100px;
+    background-color: #294e79;
+    position: relative;
+    color: white;
+}
+
+#header img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#header h1 {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+}
+
+#header p {
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+}
+
+#header form {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.menu-parent {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    display: flex;
+    list-style: none;
+}
+
+.menu-parent a {
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    background-color: #3d73b1;
+    margin-left: 10px;
+}
+
+.menu-parent a:hover {
+    color: blue;
+    /* border-bottom: 1px solid blue; */
+}
+
+.menu-child {
+    display: none;
+}
+
+.menu-parent li:hover .menu-child {
+    display: block;
+    position: absolute;
+    margin-left: -40px;
+}
+
+#header input,
+#header button {
+    background-color: #1c3451;
+    border: 1px solid rgb(57, 57, 252);
+    padding: 5px;
+}
+
+#header input::-webkit-input-placeholder,
+#header button {
+    color: white;
+}
+
+#section {
+    width: 70%;
+    float: left;
+    padding: 20px 20px 20px 20px;
+}
+
+#section form {
+    width: 60%;
+    float: left;
+    padding-right: 40px;
+}
+
+#section input {
+    width: 160px;
+    background-color: #f7f7f7;
+    border: 1px solid gray;
+}
+
+#section textarea {
+    background-color: #f7f7f7;
+    border: 1px solid gray;
+}
+
+#section form p:first-child {
+    color: red;
+    text-shadow: 4px 4px 5px green;
+}
+
+#section-right {
+    width: 40%;
+    float: right;
+}
+
+.form-col {
+    width: 50%;
+    float: left;
+}
+
+.form-row {
+    clear: both;
+    line-height: 30px;
+}
+
+#aside {
+    width: 28%;
+    float: right;
+    margin: 30px 1%;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+#aside img {
+    width: 230px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    padding: 3px;
+}
+
+p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#aside p:last-child {
+    font-weight: bold;
+    float: right;
+}
+
+h3 {
+    border-bottom: 1px dashed gray;
+    line-height: 40px;
+}
+
+#footer {
+    clear: both;
+    background-color: #294e79;
+    /* background-image: linear-gradient(red, white); */
+    padding: 5px;
+}
+
+#banner {
+    height: 150px;
+    background-image: url(../img/banner.PNG);
+    background-size: cover;
+}
