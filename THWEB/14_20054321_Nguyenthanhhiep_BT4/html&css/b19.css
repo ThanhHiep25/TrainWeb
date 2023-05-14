@@ -1,0 +1,61 @@
+body {
+    background-image: url(cute.jpg);
+}
+
+nav {
+    display: block;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    text-align: center;
+}
+
+.bot {
+    top: 200px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+li {
+    width: 5px;
+    height: 5px;
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+    margin: 30px;
+}
+
+a:link {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b200ff;
+    text-decoration: none;
+}
+
+li>ul {
+    display: none;
+}
+
+li:hover ul {
+    display: block;
+    position: absolute;
+    text-align: left;
+    left: 580px;
+    background-color: aquamarine;
+    margin: 15px;
+}
+
+li:hover ul li a:link {
+    display: block;
+    margin-left: -30px;
+    margin-top: -20px;
+}

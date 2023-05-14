@@ -1,0 +1,59 @@
+body {
+    background-image: url(cute.jpg);
+}
+
+.stitched {
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
+    background: #64dfeb;
+    color: #080000;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.3cm;
+    border-radius: 15px;
+    box-shadow: 0 0 0 4px #4cff00, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    text-shadow: -1px -1px #ffd800;
+    font-weight: normal;
+    text-align: center;
+    border-style: dashed;
+    border-color: white;
+}
+
+.stitched:a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+a:link {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li>ul {
+    display: none;
+    text-decoration: none;
+}
+
+li:hover ul {
+    display: block;
+    position: absolute;
+    text-align: center;
+    left: 180px;
+    top: 190px;
+}
+
+li:hover ul li a:link {
+    display: inline;
+    text-align: center;
+}

@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Bài tập bổ sung tuần 1 &amp 2.</title>
+    <link rel="stylesheet" type="text/css" href="L1.css">
+</head>
+
+<body>
+
+    <hr />
+    <div>
+        <h3 align="center">bài 12</h3>
+        <form action="ugdgg">
+            <p>Name:<br />
+                <input type="text" value="Thanh Van" name="name" maxlength="20" /></p>
+            <p><input type="submit" value="Submit" /></p>
+        </form>
+
+        <h3 align="center">bài 13</h3>
+
+        <p>Name:<br />
+            <input type="text" name="txtName" value=" " size="20" maxlength="20" /></p>
+        <p>Telephone:<br />
+            <input type="tel" name="txtTel" value=" " size="20" maxlength="20" /></p>
+        <p>Email:<br />
+            <input type="email" name="txEmail" value=" " size="20" maxlength="20" /></p>
+        <p>Favorite Color:<br />
+            <input type="color" name="txtColor" value=" " size="20" maxlength="20" /></p>
+        <p>Date of birthday:<br />
+            <input type="date" name="txtDate" value=" " size="20" maxlength="20" /></p>
+        <p><input type="submit" value="Submit" /></p>
+    </div>
+
+    <div>
+        <h3 align="center">bài 14</h3>
+
+        <h2 style="font-family:'Times New Roman', Times, serif">Contact Us</h2>
+
+        <p>Use the following form to send a message to Example cafe.</p>
+
+        <table>
+            <tr>
+                <td width="180"><label for="emailTo">Your email</label></td>
+                <td><input type="email" name="email" size="20"></td>
+            </tr>
+            <tr>
+                <td><label for="emailBody">Message</label></td>
+                <td><textarea name="txtMes" id="emailBody" cols="50" rows="10" tabindex="2"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cars">How did you hear of us?</label>
+                    </form>
+                </td>
+                <td>
+                    <form action="/action_page.php">
+                        <select name="cars" id="cars">
+                        <option value="Google">Google</option>
+                        <option value="Cốc Cốc">Cốc Cốc</option>
+                        <option value="Opera">Opera</option>
+                        <option value="Edge">Edge</option>
+                      </select>
+
+                    </form>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="let">Newsletter</label>
+                </td>
+                <td>
+                    <input type="checkbox"> Ensure this box is checked if you would like to receive email updates.
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="Send message"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h3 align="center">bài 15</h3>
+        <fieldset>
+            <legend>Your message:</legend>
+            <table>
+                <tr>
+                    <td><label for="emailTo">To</label></td>
+                    <td><input type="text" name="txtTo" readonly id="emailTo" size="20" value="Example Cafe"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="emailFrom">Your email</label></td>
+                    <td><input type="text" name="txtFrom" id="emailFrom" size="20" tabindex="1" maxlength="250"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="emailBody">Message</label>
+                    </td>
+                    <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" tabindex="2"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>How you found us:</legend>
+            <table>
+                <tr>
+                    <td>How did you hear of us</td>
+                    <td>
+                        <form action="">
+                            <select name="cars" id="cars">
+                                <option value="Google">Google</option>
+                                <option value="Cốc Cốc">Cốc Cốc</option>
+                                <option value="Opera">Opera</option>
+                                <option value="Edge">Edge</option>
+                              </select>
+                        </form>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Newsletter</td>
+                    <td> <input type="checkbox"> Ensure this box is checked if you would like to receive email updates.</td>
+                </tr>
+            </table>
+        </fieldset>
+        <tr>
+            <td><input type="submit" value="Send message"></td>
+        </tr>
+    </div>
+
+    <div>
+        <h3 align="center">Bài 16</h3>
+        <div>
+            <h3>Travel reservation from</h3>
+            <p><b>&#42; denotes mandotory</b></p>
+            <form action="">
+                <p>
+                    <label for="name">Full name&#42;:</label><br>
+                    <input type="text" name="txtname" id="name" maxlength="50">
+                </p>
+                <p>
+                    <label for="email">Email address&#42;:</label><br>
+                    <input type="text" name="txtemail" id="email" maxlength="250">
+                </p>
+                <p>
+                    <label for="se">Select Tour Package&#42;:</label><br>
+                    <select name="cars" id="cars">
+                        <option value="Google">Google</option>
+                        <option value="Cốc Cốc">Cốc Cốc</option>
+                        <option value="Opera">Opera</option>
+                        <option value="Edge">Edge</option>
+                      </select>
+                </p>
+                <p>
+                    <label for="date">Arrival date&#42;:</label><br>
+                    <input type="date" name="txtDate" value=" " maxlength="20" />
+                </p>
+
+                <p>
+                    <label for="number">Number of persons&#42;:</label><br>
+                    <input type="text" name="txtNumber of persons" id="Number of persons">
+                </p>
+
+                <p>
+                    <label for="ebody">What would you want to avail?&#42;:</label><br> Boarding <input type="checkbox" name="txtBody" id="ebody"><br> Fooding <input type="checkbox" name="txtBody" id="ebody"><br> Sight seeing <input type="checkbox" name="txtBody"
+                        id="ebody">
+                </p>
+
+                <p>
+                    <label for="code">Discout Coupon code:</label><br>
+                    <input type="text" name="txtcode" id="code">
+                </p>
+
+                <p>
+                    <label for="tem">Tems and condition&#42;</label><br>
+                    <input type="radio" name="txttem" id="tem">I agree
+                    <input type="radio" name="txttem" id="tem">I disagree
+                </p>
+
+                <p>
+                    <input type="submit" value="Complete reservation">
+                </p>
+
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <h2 align="center">Bài 17</h2>
+        <h2 align="center">Survey Form</h2>
+        <p>
+            If you are intersted in purchasing one or more of products, before ordering please complete some or all of the following Survey for our marketing department. Answering any question is optional, and all information will be kept strictly confidential. Thank
+            you very much for your time !
+        </p>
+
+        <form>
+            <ol>
+                <li>
+                    <p>
+                        <label for="name"> What is your name?</label><br>
+                        <input type="text" name="txtname" id="name">
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <label for="date"> What is your date of birth?</label><br>Month: <select name="cars" id="cars">
+                          <option value="January"> January </option>
+                          <option value="February"> February </option>
+                          <option value="March>"> March </option>
+                          <option value="April"> April </option>
+                          <option value="May"> May </option>
+                          <option value="June"> June </option>
+                          <option value="July"> July </option>
+                          <option value="August"> August </option>
+                          <option value="September"> September </option>
+                          <option value="October"> October </option>
+                          <option value="November"> November </option>
+                          <option value="December"> December </option>
+                          </select> Date: <select name="cars" id="cars">
+                            <option value="1"> 1 </option>
+                            <option value="2"> 2 </option>
+                            <option value="3"> 3 </option>
+                            <option value="4"> 4 </option>
+                            <option value="5"> 5 </option>
+                            <option value="6"> 6 </option>
+                            <option value="7"> 7 </option>
+                            <option value="8"> 8 </option>
+                            <option value="9"> 9 </option>
+                            <option value="10"> 10 </option>
+                            <option value="11"> 11 </option>
+                            <option value="12"> 12 </option>
+                            <option value="13"> 13 </option>
+                            <option value="14"> 14 </option>
+                            <option value="15"> 15 </option>
+                            <option value="16"> 16 </option>
+                            <option value="17"> 17 </option>
+                            <option value="18"> 18 </option>
+                            <option value="19"> 19 </option>
+                            <option value="20"> 20 </option>
+                            <option value="21"> 21 </option>
+                            <option value="22"> 22 </option>
+                            <option value="23"> 23 </option>
+                            <option value="24"> 24 </option>
+                            <option value="25"> 25 </option>
+                            <option value="26"> 26 </option>
+                            <option value="27"> 27 </option>
+                            <option value="28"> 28 </option>
+                            <option value="29"> 29 </option>
+                            <option value="30"> 30 </option>
+                            <option value="31"> 31 </option>
+                            </select> Year:
+                        <input type="Year" name="txtyear" size="4" maxlength="10" />
+                    </p>
+                </li>
+
+                <li>
+                    <label for="message"> What is your mailing address(if you would like to have a hard copy 
+                        of our catalog sent to you)?
+                    </label><br>
+                    <textarea name="mes" id="txtMes" cols="50" rows="5"></textarea>
+                </li>
+
+                <li>
+                    <label for="email"> What is your email address?</label><br>
+                    <input type="text" name="txtemail" id="email">
+                </li>
+
+                <li>
+                    <label for="cata"> Have you viewed our online product catalog?</label><br>
+                    <input type="radio" name="txtcata" id="cata">Yes<input type="radio" name="txtcata" id="cata">No
+                </li>
+
+                <li>
+                    <label for="apply">If so, what product(s), besides the one you are ordering, 
+                        might you be intersted in purchasing in the future?(Check all that apply)
+                    </label><br>
+                    <input type="checkbox" name="txtapply" id="apply">VCR<br>
+                    <input type="checkbox" name="txtapply" id="apply">Big Screen TV<br>
+                    <input type="checkbox" name="txtapply" id="apply">Audio Equipment<br>
+                    <input type="checkbox" name="txtapply" id="apply">Video Equipment<br>
+                    <input type="checkbox" name="txtapply" id="apply">Camera Equipment<br>
+                    <input type="checkbox" name="txtapply" id="apply">Other<input type="text" name="txt" id="txt">
+                </li>
+            </ol>
+        </form>
+    </div>
+
+    <div>
+        <h2 align="center">Bài 18</h2>
+        <form action="" method="get" name="frmInfor">
+            Please indicate your area of interst:<br>
+            <input type="text" name="txtName" value="" size="20" maxlength="20" list="tech" />
+            <datalist id="tech"> 
+                <option value="CSS">
+                    <option value="HTML">
+                        <option value="javascript">
+            </datalist>
+        </form>
+    </div>
+
+    <div>
+        <h2 align="center">Bài 20</h2>
+
+        <iframe width="420" height="315" src="https://youtu.be/OyZlqMiALGg" frameborder="0" allowfullscreen></iframe>
+    </div>
+</body>
+
+</html>
