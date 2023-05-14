@@ -1,0 +1,47 @@
+form {
+    display: table;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px;
+    background-color: rgb(154, 158, 158);
+    padding: 10px;
+}
+
+p {
+    display: table-row;
+}
+
+label {
+    display: table-cell;
+    font-weight: bold;
+    margin: 20px;
+}
+
+input {
+    display: table-cell;
+    margin: 10px;
+}
+
+span {
+    display: table-cell;
+    padding: 10px;
+}
+
+.DangKi {
+    background-color: rgb(114, 186, 228);
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    color: rgb(17, 26, 34);
+    margin: 20px;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 25px;
+}
+
+h1,
+h4 {
+    color: aqua;
+}

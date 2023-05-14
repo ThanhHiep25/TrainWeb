@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/th.js"></script>
+    <title>Báo chí</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="col-md-4">
+            <ul>
+                <li class="dropdown-item">
+                    <h2 class="font-weight-bold" style="color:rgb(76, 153, 172)">Tuổi trẻ online</h2>
+                </li>
+                <li class="dropdown-item" id="menuDK">
+                    <h4 class="font-weight-bold " style="color:rgb(76, 153, 172)">Đăng ký mua báo online</h4>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <hr>
+        <div class="row">
+            <table class="table table-hover table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Đặt báo</th>
+                        <th>Kỳ hạn</th>
+                        <th>Thông tin liên lạc</th>
+                        <th>Địa chỉ nhận báo</th>
+                        <th>Tổng thành tiền</th>
+                        <th>Hình thức thanh toán</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Đăng ký báo online</h4>
+                    <button type="button" class="close bg-danger" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form role="form" class="form-horizontal">
+                        <div class="form-group">
+                            <label for="txtthanhnien" class="font-weight-bold">Đăng ký báo</label><br>
+                            <input type="checkbox" id="txtthanhnien" class="mr-1" placeholder="">Tuổi trẻ hằng ngày
+                            <input type="checkbox" id="txtthanhnien" class="mr-1" placeholder="">Tuổi trẻ cười
+                            <input type="checkbox" id="txtthanhnien" class="mr-1" placeholder="">Tuổi trẻ chủ nhật
+                        </div>
+                        <div class="form-group">
+                            <label for="cbox_kyhan">Kỳ hạn</label>
+                            <select class="custom-select" name="" id="cbox_kyhan" onclick="display();">
+                                <option value="a" id="o1">3 tháng</option>
+                                <option value="b" id="o2">6 tháng</option>
+                                <option value="c" id="o3">1 năm</option>
+                            </select>
+                            <p id="check"></p>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Đơn giá</label>
+                            <input type="text" class="form-control" name="" id="txt_DonGia" aria-describedby="helpId" readonly>
+                            <small id="check" class="text-danger font-italic"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="txtten" class="font-weight-bold">Thông tin liên lạc</label>
+                            <input type="text" id="txtten" class="form-control" placeholder="Mỹ Duyên">
+                            <span id="tbten" class="text-danger">*</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtsdt" class="font-weight-bold">Số điện thoại</label>
+                            <input type="text" id="txtsdt" class="form-control" placeholder="0983888889">
+                            <span id="tbsdt" class="text-danger">*</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtdiachi" class="font-weight-bold">Địa chỉ nhận báo</label>
+                            <input type="text" id="txtdiachi" class="form-control" placeholder="246 Dĩ An Bình Dương">
+                            <span id="tbdiachi" class="text-danger">*</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtthanhtoan" class="font-weight-bold">Hình thức thanh toán</label><br>
+                            <input type="radio" id="txtthanhtoan" class="mr-1" name="txtck">Chuyển khoản
+                            <input type="radio" id="txtthanhtoan" class="mr-1" name="txtck">Tiền mặt
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" id="btnSave" class="btn btn-primary">Đặt báo</button>
+                            <span id="thongbao" class="text-danger"></span>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

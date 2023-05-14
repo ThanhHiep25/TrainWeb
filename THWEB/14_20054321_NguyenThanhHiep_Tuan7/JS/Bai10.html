@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 10</title>
+</head>
+
+<body background="../JS/cute.jpg">
+    <!-- <script language="JavaScript">
+        var charNum = 0;
+
+        function KiemTra() {
+            if (txtContent.value.length > 50)
+                alert("Bạn đã gõ qúa số ký tự cho phép !");
+            txtCharNum.value = txtContent.value.length;
+        }
+    </script>
+    <input type="text" name=" txtCharNum">
+    <textarea name=" txtContent " cols=50 rows="10" onKeyUp="KiemTra();"> </textarea>
+-->
+
+    <form name="contactForm" action="https://www.youtube.com/" onsubmit="return validateForm()" method="post">
+
+        <label for="fname">Nhập tên :</label>
+        <input type="text" name="fname" id="fname">
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <script>
+        function validateForm() {
+            var fname = document.forms["contactForm"]["fname"].value;
+
+            if (fname.length > 10 || fname.length < 1) {
+                alert("Bạn đã gõ qúa số ký tự cho phép");
+                return false;
+            }
+            alert("OK");
+        }
+    </script>
+</body>
+
+</html>

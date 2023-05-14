@@ -1,0 +1,33 @@
+body {
+    background-image: url(../HTML&&CSS/cute.jpg)
+}
+
+#txt1 {
+    text-shadow: -2px -3px 0px #FF0000;
+}
+
+#txt2 {
+    border: 1px;
+    background-color: bisque;
+    width: 200px;
+    text-align: center;
+    color: rebeccapurple;
+}
+
+#txt3 {
+    text-shadow: 0px -8px 0px palevioletred;
+}
+
+#txt4 {
+    text-shadow: 0px -3px 10px rgb(26, 101, 187);
+    color: aqua;
+}
+
+#txt5 {
+    border: 1px solid;
+    background-color: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, -14px -25px 0px rgba(57, 38, 202, 0);
+    color: #588AFF;
+    width: 200px;
+    text-align: center;
+}
