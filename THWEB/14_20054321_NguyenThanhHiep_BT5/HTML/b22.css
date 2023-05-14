@@ -1,0 +1,53 @@
+body {
+    background-image: url(../HTML/cute.jpg);
+}
+
+h1 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    color: #fff;
+    background-color: #666666;
+    margin: 0px;
+    padding: 10px;
+    height: 60px;
+    z-index: 2;
+}
+
+.nav {
+    z-index: 1;
+    background-color: #d6d6d6;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    float: left;
+    width: 10%;
+    height: 100%;
+    padding: 10px;
+}
+
+.section {
+    float: left;
+    width: 90%;
+    padding: 10px;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.abstract {
+    font-weight: bold;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav:before {
+    content: "Navigation";
+    font-size: 18px;
+    font-weight: bold;
+}

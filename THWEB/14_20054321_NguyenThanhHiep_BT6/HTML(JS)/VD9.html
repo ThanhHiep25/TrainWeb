@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VD9</title>
+</head>
+
+<body background="../HTML(JS)/cute.jpg">
+    <script type="text/javascript" language="JavaScript">
+        a = prompt("Nhập tháng : ");
+        switch (eval(a)) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                alert("Tháng" + a + ": Có 31 ngày");
+                break;
+            case 2:
+                alert("Tháng" + a + ": có 28 ngày");
+                break;
+            case 4:
+            case 6:
+            case 9:
+                alert("Tháng" + a + ": có 30 ngày");
+                break;
+            default:
+                alert("Không có tháng như vậy");
+                break;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 5</title>
+</head>
+
+<body background="../HTML(JS)/cute.jpg">
+    <script language="JavaScript">
+        var soluong, x;
+        var ds = new Array(100);
+
+        for (i = 0; i < 100; i++) {
+            ds[i] = prompt("Nhập số người trong phòng ban: ", 10);
+        }
+
+        ds.sort();
+
+        document.write("<H3>Dang sách phòng ban sau khi sắp xếp: </H3>");
+
+        for (x in ds) {
+            document.write(ds[x] + "<BR>");
+        }
+    </script>
+</body>
+
+</html>

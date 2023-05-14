@@ -1,0 +1,12 @@
+body {
+	background-image: url(pu.jpg)
+}
+
+.footer{
+	position:fixed;
+	bottom:0;
+	display:block;
+	width:100%;
+	background-color:green;
+	color:#fff;
+}

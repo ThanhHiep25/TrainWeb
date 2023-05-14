@@ -1,0 +1,23 @@
+body{
+	background-image:url(pu.jpg)
+}
+
+.con,.row{
+	width:100%;
+}
+
+.row:before, .row:after{
+	display:table;
+	content: "";
+}
+
+.row:after{
+	clear:both;
+}
+
+.col1, .col2, .col3{
+	float:left;
+	width:25.333333333%;
+	margin:1%;
+	padding:1%;
+}

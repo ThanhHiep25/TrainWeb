@@ -1,0 +1,47 @@
+body{
+	background-image:url(pu.jpg);
+}
+
+.d1 {
+	width:500px;
+	height:300px;
+	background-color: gray;
+}
+
+.p1 {
+	text-align:right;
+	color: blue;
+}
+
+.p2 {
+	text-align:center;
+	color: green;
+}
+
+.p3 {
+	text-align: left;
+	color: brown;
+}
+
+.p4 {
+	text-decoration: underline;
+	color: pink;
+}
+
+.p5 {
+	text-decoration: line-through;
+	color: purple;
+}
+
+.p6 {
+	text-decoration: overline;
+	color: red;
+}
+
+.p7 {
+	text-decoration: blink;
+	text-align: justify;
+	color: blue;
+	text-shadow: 4px 4px 8px blue;
+}
+

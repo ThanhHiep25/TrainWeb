@@ -1,0 +1,101 @@
+*{
+	margin:20px;
+}
+
+body {
+	background-image: url(pu.jpg)
+}
+
+.d1 {
+	border-style: solid;
+	border-width:10px;
+	border-color: #85C226 #F7C200 #4493A0 #DF127B;
+	padding:10px;
+}
+
+.d2 {
+	border-style: solid dotted groove double;
+	border-width: 10px;
+	border-color: #85C226 #F7C200 #4493A0 #DF127B;
+	padding: 10px;
+}
+
+.d3 {
+	border-style: solid;
+	border-top-width: 5px;
+	border-right-width:10px;
+	border-bottom-width:15px;
+	border-left-width:20px;
+	border-color: #85C226 #F7C200 #4493A0 #DF127B;
+	padding: 10px;
+}
+
+.d4 {
+	border-style: solid;
+	border-width: 10px;
+	border-radius:0px 30px 70px 20px;
+	border-color: #85C226 #F7C200 #4493A0 #DF127B;
+	padding: 10px;
+}
+
+.d5 {
+	border-width: 4px 30px 4px 30px;
+	border-style: groove ridge dashed groove;
+	border-color: #00ff21;
+	border-radius: 100px 100px 0 0;
+	-moz-border-radius: 100px 100px 0 0;
+	-webkit-border-radius: 100px 100px 0 0;
+	text-align:center;
+}
+
+.d6{
+	border-style:solid;
+	border-color:yellow;
+	border-radius: 20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	text-align:center;
+}
+
+.d7 {
+	border-width: 0px 12px 0px 12px;
+	border-style: double;
+	border-color: violet;
+	border-radius: 40px 40px 60px 60px;
+	-moz-border-radius: 40px 40px 60px 60px;
+	-webkit-border-radius: 40px 40px 60px 60px;
+	text-align: center;
+}
+
+.d8 {
+	border-style: solid;
+	border-radius: 20px 100px 100px 20px;
+	-moz-border-radius: 20px 100px 100px 20px;
+	-webkit-border-radius: 20px 100px 100px 20px;
+	text-align: center;
+}
+
+.d9{
+	background:orange;
+	border-width:4px 30px 4px 30px;
+	border-style:solid;
+	border-color:#56c6d9 #56c5d9 #fe2192 #fe2192;
+	border-radius:0 120px 0 120px;
+}
+
+button{
+	width:200px;
+	padding:8px;
+	background-color:#56c5d9;
+	border-color:#fe2192;
+	color:#ffffff;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-khtml-border-radius:10px;
+	text-align:center;
+	vertical-align:middle;
+	border:1px solid transparent;
+	font-weight:900;
+	font-size:125%;
+}
