@@ -1,0 +1,146 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-image: url(../IMG/background-dep-1.jpg);
+
+}
+
+.container {
+    padding: 50px;
+    width: auto;
+    margin: 0 auto;
+}
+
+
+.error {
+    font-weight: 800;
+}
+
+.error1 {
+    font-size: 600px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.733), rgba(0, 0, 255, 0.671));
+    box-shadow: 10px 20px 40px 0px;
+    border-radius: 15px;
+}
+
+.error2 {
+    font-size: 400px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.733), rgba(0, 0, 255, 0.671));
+    margin-left: 10px;
+    box-shadow: 10px 20px 40px 0px;
+    border-radius: 15px;
+}
+
+.error3 {
+    font-size: 200px;
+    background-image: linear-gradient(to right,rgba(255, 0, 0, 0.733), rgba(0, 0, 255, 0.671));
+    margin-left: 10px;
+    box-shadow: 10px 20px 40px 0px;
+    border-radius: 15px;
+}
+
+.message {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+
+}
+
+.link {
+
+    font-size: 30px;
+    font-weight: 200;
+    color: #0000ff;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+
+.star {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 20px solid yellow;
+}
+
+.star:after {
+    content: "";
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 20px solid rgb(63, 163, 177);
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin: -32px 0 0 -12px;
+}
+
+@keyframes fall {
+    from {
+        transform: translate(0, -100vh) rotate(0deg);
+    }
+
+    to {
+        transform: translate(100vw, 100vh) rotate(360deg);
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.star1 {
+    left: -10%;
+    top: -10%;
+    animation: fall 5s linear infinite, fade 5s linear infinite;
+}
+
+.star2 {
+    left: -20%;
+    top: -20%;
+    animation: fall 6s linear infinite, fade 6s linear infinite;
+}
+
+.star3 {
+    left: -30%;
+    top: -30%;
+    animation: fall 7s linear infinite, fade 7s linear infinite;
+}
+
+.star4 {
+    left: -40%;
+    top: -40%;
+    animation: fall 8s linear infinite, fade 8s linear infinite;
+}
+
+.star5 {
+    left: -50%;
+    top: -50%;
+    animation: fall 9s linear infinite, fade 9s linear infinite;
+}
+
+.star6 {
+    left: -60%;
+    top: -60%;
+    animation: fall 10s linear infinite, fade 10s linear infinite;
+}
+
+.star7 {
+    left: -70%;
+    top: -70%;
+    animation: fall 3s linear infinite, fade 3s linear infinite;
+}
